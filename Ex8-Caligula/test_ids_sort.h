@@ -11,6 +11,19 @@ Purpose: This header file contain declaration of functions that test the
 #include "sort_ids.h"
 
 const char* const SPACE_BETWEEN_IDS = " ";
+const char* const IDS_VECTOR_IN_ASCENDING_SORT_ORDER = "The ids vector in ascending sort: ";
+
+void test_ascending_sort_ids(std::vector<id_t>& ids);
+/**
+* @brief  test the function that sort the ids vector in ascending order
+*			and print the vector after the ascending sort
+* @param  INOUT std::vector<id_t>& ids - the ids vector that will be sorted
+*			in ascending order
+* @return this function has no return value
+* @notes  the ids vector change such that it will be sorted in
+*			ascending order
+* @author  Liri
+*/
 
 void print_ids_vector(std::vector<id_t> ids);
 /**
