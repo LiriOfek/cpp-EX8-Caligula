@@ -20,6 +20,13 @@ void test_ascending_sort_ids(std::vector<id_t>& ids) {
 	print_ids_vector(ids);
 }
 
+void test_descending_sort_ids_with_reverse(std::vector<id_t>& ids) {
+	std::cout << IDS_VECTOR_IN_DESCENDING_SORT_ORDER_USING_REVERSE
+			  << std::endl;
+	descending_sort_ids_vector_with_reverse(ids);
+	print_ids_vector(ids);
+}
+
 void test_print_ids_vector(std::vector<id_t> ids) {
 
 	std::cout << std::endl
