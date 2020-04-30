@@ -5,3 +5,10 @@ Purpose: This header file contain declaration of functions that remove
 			elements that equal than given value using
 			algorithm
 \********************************************************/
+
+#pragma once
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <functional>
