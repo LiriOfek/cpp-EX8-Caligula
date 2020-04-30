@@ -15,16 +15,20 @@ const char* const VECTOR_AFTER_REMOVE_ELEMENTS_EQUAL_TO_NUMBER = "The ints vecto
 const char* const COLON = ":";
 const char* const ELEMENTS_IN_VECTOR = "The given ints vector:";
 
-void print_ints_vector(std::vector<int> ints);
+void test_remove_elements_from_vector(std::vector<int>& ints,
+	int number_that_elements_equal_to_it_will_remove);
 /**
-* @brief  print the elements that in the given ints vector
+* @brief  test the functions that remove elements that equals to given
+*			number and bigger than given number
 * @param  IN std::vector<int> ints - the vector of ints
 * @return this function has no return value
+* @notes  the given vector changes such that the elements that equal
+*		  to given number or bigger than given number are removed
 * @author  Liri
 */
 
 void test_remove_elements_equal_to_number(std::vector<int>& ints,
-										  int number_that_elements_equal_to_it_will_remove);
+	int number_that_elements_equal_to_it_will_remove);
 /**
 * @brief  test the function that remove the elements that equal to the
 *			given number from vector, and print the vector
@@ -39,14 +43,13 @@ void test_remove_elements_equal_to_number(std::vector<int>& ints,
 * @author  Liri
 */
 
-void test_remove_elements_from_vector(std::vector<int>& ints,
-									  int number_that_elements_equal_to_it_will_remove);
+void print_ints_vector(std::vector<int> ints);
 /**
-* @brief  test the functions that remove elements that equals to given
-*			number and bigger than given number
+* @brief  print the elements that in the given ints vector
 * @param  IN std::vector<int> ints - the vector of ints
 * @return this function has no return value
-* @notes  the given vector changes such that the elements that equal
-*		  to given number or bigger than given number are removed
 * @author  Liri
 */
+
+
+
