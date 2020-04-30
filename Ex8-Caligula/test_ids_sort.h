@@ -10,6 +10,17 @@ Purpose: This header file contain declaration of functions that test the
 
 #include "sort_ids.h"
 
+const char* const SPACE_BETWEEN_IDS = " ";
+
+void print_ids_vector(std::vector<id_t> ids);
+/**
+* @brief  print the ids in the ids vector
+* @param  IN id_t id - the given id that will be prints
+* @return this function has no return value
+* @notes  call function print_id() for each id in ids vector
+* @author  Liri
+*/
+
 void print_id(id_t id);
 /**
 * @brief  print the chars in the given id, without seperating them

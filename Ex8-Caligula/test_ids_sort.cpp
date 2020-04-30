@@ -8,6 +8,17 @@ Purpose: This file contain functions that test the functions that sort vector
 
 #include "test_ids_sort.h"
 
+void print_ids_vector(std::vector<id_t> ids) {
+	for (unsigned int index_in_ids_vector = 0;
+		 index_in_ids_vector < ids.size();
+		 index_in_ids_vector++)
+	{
+		print_id(ids[index_in_ids_vector]);
+		std::cout << SPACE_BETWEEN_IDS;
+	}
+	std::cout << std::endl;
+}
+
 void print_id(id_t id) {
 	for (unsigned int index_in_id = 0; index_in_id < id.size(); index_in_id++)
 	{
