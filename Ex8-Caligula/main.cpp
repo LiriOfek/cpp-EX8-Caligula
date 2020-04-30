@@ -9,6 +9,7 @@ Purpose: This file initiate vectors and call to the function that test the
 
 #include "test_remove_elements.h"
 #include "test_ids_sort.h"
+#include "test_is_there_even_element.h"
 
 int main() {
 	/**
@@ -29,9 +30,17 @@ int main() {
 		{ '1', '5', '2', '2', '2', '1', '1', '1' },
 		{ '3', '7', '3', '2', '2', '2', '2', '2' } });
 
+	std::vector<int> vec({ 1, 9, 15, 23, 101, 200 });
+	int lowerBoundary = 4;
+	int upperBoundary = 90;
+
 	test_remove_elements_from_vector(ints,
 									 number_that_elements_equal_to_it_will_remove,
 								     number_that_elements_bigger_than_it_will_remove);
 
 	test_sort_vector_of_array(ids);
+
+	test_is_there_even_element_in_vector(vec,
+										 lowerBoundary,
+										 upperBoundary);
 }

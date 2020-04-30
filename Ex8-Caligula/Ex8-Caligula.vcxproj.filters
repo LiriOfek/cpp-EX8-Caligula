@@ -30,6 +30,12 @@
     <ClCompile Include="test_ids_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="is_there_even_element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_is_there_even_element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="remove_elements_from_ints_vector.h">
@@ -42,6 +48,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="test_ids_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="is_there_even_element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test_is_there_even_element.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

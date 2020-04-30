@@ -38,6 +38,7 @@ void test_descending_sort_ids_without_reverse(std::vector<id_t>& ids) {
 			  << std::endl;
 	descending_sort_ids_vector_without_reverse(ids);
 	print_ids_vector(ids);
+	std::cout << std::endl;
 }
 
 void test_print_ids_vector(std::vector<id_t> ids) {
