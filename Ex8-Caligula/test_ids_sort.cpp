@@ -7,3 +7,10 @@ Purpose: This file contain functions that test the functions that sort vector
 \********************************************************/
 
 #include "test_ids_sort.h"
+
+void print_id(id_t id) {
+	for (unsigned int index_in_id = 0; index_in_id < id.size(); index_in_id++)
+	{
+		std::cout << id[index_in_id];
+	}
+}
