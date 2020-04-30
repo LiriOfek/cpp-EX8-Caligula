@@ -19,8 +19,9 @@ int main() {
 	*/
 	std::vector<int> ints({ 1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10 });
 	int number_that_elements_equal_to_it_will_remove = 1;
+	int number_that_elements_bigger_than_it_will_remove = 5;
 
 	test_remove_elements_from_vector(ints,
-									 number_that_elements_equal_to_it_will_remove);
-
+									 number_that_elements_equal_to_it_will_remove,
+								     number_that_elements_bigger_than_it_will_remove);
 }

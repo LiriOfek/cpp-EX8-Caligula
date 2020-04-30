@@ -17,7 +17,8 @@ const char* const ELEMENTS_IN_VECTOR = "The given ints vector:";
 const char* const VECTOR_AFTER_REMOVE_ELEMENTS_BIGGER_THAN_NUMBER = "The ints after remove the elements that bigger than ";
 
 void test_remove_elements_from_vector(std::vector<int>& ints,
-									  int number_that_elements_equal_to_it_will_remove);
+									  int number_that_elements_equal_to_it_will_remove,
+									  int number_that_elements_bigger_than_it_will_remove);
 /**
 * @brief  test the functions that remove elements that equals to given
 *			number and bigger than given number

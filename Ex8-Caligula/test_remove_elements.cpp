@@ -8,13 +8,17 @@ Purpose: This file contain functions that test the functions that remove
 #include "test_remove_elements.h"
 
 void test_remove_elements_from_vector(std::vector<int>& ints,
-									  int number_that_elements_equal_to_it_will_remove) {
+									  int number_that_elements_equal_to_it_will_remove,
+									  int number_that_elements_bigger_than_it_will_remove) {
 	std::cout << ELEMENTS_IN_VECTOR
 			  << std::endl;
 	print_ints_vector(ints);
 
 	test_remove_elements_equal_to_number(ints,
 										 number_that_elements_equal_to_it_will_remove);
+
+	test_remove_elements_bigger_than_number(ints,
+											number_that_elements_bigger_than_it_will_remove);
 }
 
 void test_remove_elements_equal_to_number(std::vector<int>& ints,
