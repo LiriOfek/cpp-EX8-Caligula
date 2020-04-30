@@ -7,6 +7,7 @@ Purpose: This file initiate vectors and call to the function that test the
 \********************************************************/
 
 #include "test_remove_elements.h"
+#include "test_ids_sort.h"
 
 int main() {
 	/**

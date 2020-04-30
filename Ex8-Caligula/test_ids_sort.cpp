@@ -14,6 +14,14 @@ void test_ascending_sort_ids(std::vector<id_t>& ids) {
 	print_ids_vector(ids);
 }
 
+void test_print_ids_vector(std::vector<id_t> ids) {
+
+	std::cout << std::endl
+		<< IDS_VECTOR_ELEMENTS
+		<< std::endl;
+	print_ids_vector(ids);
+}
+
 void print_ids_vector(std::vector<id_t> ids) {
 	for (unsigned int index_in_ids_vector = 0;
 		 index_in_ids_vector < ids.size();
