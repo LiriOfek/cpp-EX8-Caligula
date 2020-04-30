@@ -8,6 +8,13 @@ Purpose: This file contain functions that test the functions that sort vector
 
 #include "test_ids_sort.h"
 
+void test_sort_vector_of_array(std::vector<id_t>& ids) {
+
+	test_print_ids_vector(ids);
+
+	test_ascending_sort_ids(ids);
+}
+
 void test_ascending_sort_ids(std::vector<id_t>& ids) {
 	std::cout << IDS_VECTOR_IN_ASCENDING_SORT_ORDER << std::endl;
 	ascending_sort_ids_vector(ids);
