@@ -7,6 +7,13 @@ Purpose: This file contain functions that test the functions that sort vector
 
 #include "test_ids_sort.h"
 
+void test_descending_sort_ids_with_reverse(std::vector<id_t>& ids) {
+	std::cout << IDS_VECTOR_IN_DESCENDING_SORT_ORDER_USING_REVERSE
+		<< std::endl;
+	descending_sort_ids_vector_with_reverse(ids);
+	print_ids_vector(ids);
+}
+
 void test_sort_vector_of_array(std::vector<id_t>& ids) {
 
 	test_print_ids_vector(ids);
