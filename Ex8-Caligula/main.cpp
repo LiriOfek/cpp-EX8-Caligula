@@ -22,7 +22,13 @@ int main() {
 	int number_that_elements_equal_to_it_will_remove = 1;
 	int number_that_elements_bigger_than_it_will_remove = 5;
 
+	std::vector<id_t> ids({ { '1', '6', '1', '4', '5', '3', '3', '3' },
+		{ '1', '5', '2', '2', '2', '1', '1', '1' },
+		{ '3', '7', '3', '2', '2', '2', '2', '2' } });
+
 	test_remove_elements_from_vector(ints,
 									 number_that_elements_equal_to_it_will_remove,
 								     number_that_elements_bigger_than_it_will_remove);
+
+	test_sort_vector_of_array(ids);
 }
