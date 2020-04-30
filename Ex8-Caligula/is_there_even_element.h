@@ -13,6 +13,30 @@ Purpose: This header file contain declaration of functions
 #include <algorithm>
 
 const int EVEN = 2;
+const int NEXT_ELEMENT = 1;
+
+bool is_there_even_element_in_vector_boundaries(std::vector<int>& vec,
+												int lowerBound,
+												int upperBound);
+/**
+* @brief  check if there is even element in the vector elements boundarirs
+*			that start in the first element that bigger or equal to lowerBound,
+*			and end in the first element that bigger than upperBound
+* @param  IN std::vector<int>&ints - the vector of ints, that
+*				in the function check if there is even element in its
+*				given boundaries
+*		   IN int lowerBound - the given lower boundary of the vector
+*		   IN int upperBound - the given upper boundary of the vector
+*		   OUT true - if there is even element in the vector elements boundaries
+*					that start in the first element that bigger or equal to lowerBound,
+*					and end in the first elemnt that bigger than upperBound
+*		   false - otherwise
+* @return true - if there is even element in the vector elements boundaries
+*					that start in the first element that bigger or equal to lowerBound,
+*					and end in the first elemnt that bigger than upperBound
+*		   false - otherwise
+* @author  Liri
+*/
 
 bool even(int element);
 /**
