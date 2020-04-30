@@ -12,7 +12,8 @@ Purpose: This file initiate vectors and call to the function that test the
 int main() {
 	/**
 	* @brief  test functions that remove elements from vector that equal or
-	*			bigger than given number
+	*			bigger than given number, sort vector of arrays in ascending
+	*			order
 	* @return this function has no return value
 	* @notes  the ints vector change such that all the elements than equal to 1 
 	*			or bigger than 5 are removed  from the vector
