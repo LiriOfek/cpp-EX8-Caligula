@@ -16,7 +16,7 @@ const char* const COLON = ":";
 const char* const ELEMENTS_IN_VECTOR = "The given ints vector:";
 
 void test_remove_elements_from_vector(std::vector<int>& ints,
-	int number_that_elements_equal_to_it_will_remove);
+									  int number_that_elements_equal_to_it_will_remove);
 /**
 * @brief  test the functions that remove elements that equals to given
 *			number and bigger than given number
@@ -28,7 +28,7 @@ void test_remove_elements_from_vector(std::vector<int>& ints,
 */
 
 void test_remove_elements_equal_to_number(std::vector<int>& ints,
-	int number_that_elements_equal_to_it_will_remove);
+										  int number_that_elements_equal_to_it_will_remove);
 /**
 * @brief  test the function that remove the elements that equal to the
 *			given number from vector, and print the vector
