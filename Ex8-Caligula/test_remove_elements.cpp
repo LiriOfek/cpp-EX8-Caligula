@@ -14,7 +14,7 @@ void test_remove_elements_from_vector(std::vector<int>& ints,
 	print_ints_vector(ints);
 
 	test_remove_elements_equal_to_number(ints,
-		number_that_elements_equal_to_it_will_remove);
+										 number_that_elements_equal_to_it_will_remove);
 }
 
 void test_remove_elements_equal_to_number(std::vector<int>& ints,
@@ -24,7 +24,18 @@ void test_remove_elements_equal_to_number(std::vector<int>& ints,
 			  << COLON
 			  << std::endl;
 	remove_elements_equal_to_value(ints,
-		number_that_elements_equal_to_it_will_remove);
+								   number_that_elements_equal_to_it_will_remove);
+	print_ints_vector(ints);
+}
+
+void test_remove_elements_bigger_than_number(std::vector<int>& ints,
+											 int number_that_elements_bigger_than_it_will_remove) {
+	std::cout << VECTOR_AFTER_REMOVE_ELEMENTS_BIGGER_THAN_NUMBER
+			  << number_that_elements_bigger_than_it_will_remove
+			  << COLON
+			  << std::endl;
+	remove_elements_bigger_than_value(ints,
+									  number_that_elements_bigger_than_it_will_remove);
 	print_ints_vector(ints);
 }
 
