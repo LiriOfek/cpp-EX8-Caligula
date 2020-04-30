@@ -2,8 +2,7 @@
 File Name: test_ids_sort.cpp
 Author: Liri (28/4/2020)
 Purpose: This file contain functions that test the functions that sort vector
-			of arrays in ascending order and descending order using reverse
-			function
+			of arrays in ascending order 
 \********************************************************/
 
 #include "test_ids_sort.h"
@@ -14,19 +13,11 @@ void test_sort_vector_of_array(std::vector<id_t>& ids) {
 
 	test_ascending_sort_ids(ids);
 
-	test_descending_sort_ids_with_reverse(ids);
 }
 
 void test_ascending_sort_ids(std::vector<id_t>& ids) {
 	std::cout << IDS_VECTOR_IN_ASCENDING_SORT_ORDER << std::endl;
 	ascending_sort_ids_vector(ids);
-	print_ids_vector(ids);
-}
-
-void test_descending_sort_ids_with_reverse(std::vector<id_t>& ids) {
-	std::cout << IDS_VECTOR_IN_DESCENDING_SORT_ORDER_USING_REVERSE
-			  << std::endl;
-	descending_sort_ids_vector_with_reverse(ids);
 	print_ids_vector(ids);
 }
 
