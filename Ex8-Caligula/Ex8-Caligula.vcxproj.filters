@@ -36,6 +36,12 @@
     <ClCompile Include="test_is_there_even_element.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fibonacci_series.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_fibonacci_series.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="remove_elements_from_ints_vector.h">
@@ -54,6 +60,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="test_is_there_even_element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fibonacci_series.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test_fibonacci_series.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

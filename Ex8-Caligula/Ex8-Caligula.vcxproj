@@ -119,18 +119,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fibonacci_series.cpp" />
     <ClCompile Include="is_there_even_element.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="remove_elements_from_ints_vector.cpp" />
     <ClCompile Include="sort_ids.cpp" />
+    <ClCompile Include="test_fibonacci_series.cpp" />
     <ClCompile Include="test_ids_sort.cpp" />
     <ClCompile Include="test_is_there_even_element.cpp" />
     <ClCompile Include="test_remove_elements.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fibonacci_series.h" />
     <ClInclude Include="is_there_even_element.h" />
     <ClInclude Include="remove_elements_from_ints_vector.h" />
     <ClInclude Include="sort_ids.h" />
+    <ClInclude Include="test_fibonacci_series.h" />
     <ClInclude Include="test_ids_sort.h" />
     <ClInclude Include="test_is_there_even_element.h" />
     <ClInclude Include="test_remove_elements.h" />
