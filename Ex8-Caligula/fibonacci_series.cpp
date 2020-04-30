@@ -8,6 +8,13 @@ Purpose: this file contain functions that calculate n's element in fibonacci
 
 #include "fibonacci_series.h"
 
+void fill_fibonnacci_series(std::vector<int>& fib) {
+	std::transform(fib.begin(),
+				   fib.end(),
+				   fib.begin(),
+				   calculate_element_in_fibonacci_series);
+}
+
 int calculate_element_in_fibonacci_series(int n) {
 	const double sqrt5 = std::sqrt(5);
 	const double phi = (1 + sqrt5) / 2;
