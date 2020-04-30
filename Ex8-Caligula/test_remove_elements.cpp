@@ -13,3 +13,14 @@ void print_ints_vector(std::vector<int> ints) {
 	}
 	std::cout << std::endl;
 }
+
+void test_remove_elements_equal_to_number(std::vector<int>& ints,
+										  int number_that_elements_equal_to_it_will_remove) {
+	std::cout << VECTOR_AFTER_REMOVE_ELEMENTS_EQUAL_TO_NUMBER
+			  << number_that_elements_equal_to_it_will_remove
+			  << COLON
+			  << std::endl;
+	remove_elements_equal_to_value(ints,
+								   number_that_elements_equal_to_it_will_remove);
+	print_ints_vector(ints);
+}
