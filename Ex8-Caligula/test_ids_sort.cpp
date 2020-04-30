@@ -12,6 +12,8 @@ void test_sort_vector_of_array(std::vector<id_t>& ids) {
 	test_print_ids_vector(ids);
 
 	test_ascending_sort_ids(ids);
+
+	test_descending_sort_ids_with_reverse(ids);
 }
 
 void test_ascending_sort_ids(std::vector<id_t>& ids) {

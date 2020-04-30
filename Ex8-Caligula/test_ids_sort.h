@@ -18,7 +18,7 @@ void test_sort_vector_of_array(std::vector<id_t>& ids);
 /**
 * @brief  test the functions that sort the ids vector in ascending order,
 *			descending order using reverse function and without using
-*			reverse function and the function that print the ids
+*			reverse 
 * @param  INOUT std::vector<id_t>& ids - the ids vector that will be sorted
 *			in ascending order and in the end will be sorted in descending order
 * @return this function has no return value
