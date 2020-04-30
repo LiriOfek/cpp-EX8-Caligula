@@ -10,17 +10,11 @@ Purpose: This file initiate vectors and call to the function that test the
 
 int main() {
 	/**
-	* @brief  test functions that remove elements from vector that equal or
-	*			bigger than given number, sort vector of arrays in ascending
-	*			and descending order, check if there is even element in vector
-	*			and calculate fibonacci serius in given size
-	* @param  IN std::vector<int>& fib - the vector that will be in the given
-	*			size with fibonacci elements
-	*		  IN int size_of_fibonacci_serius - the given size of the fibonacci
-	*		  series vector
+	* @brief  test functions that remove elements from vector that equal 
+	*			to given value
 	* @return this function has no return value
-	* @notes  the fibonacci vector change such that it will be in the given size
-	*			contain the elements of fibonacci series
+	* @notes  the vector of ints is changed such that all the elements that
+	*			equal to 1 are removed
 	* @author  Liri
 	*/
 	std::vector<int> ints({ 1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10 });
