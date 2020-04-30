@@ -14,8 +14,9 @@ void test_sort_vector_of_array(std::vector<id_t>& ids) {
 
 	test_ascending_sort_ids(ids);
 
-	test_descending_sort_ids_with_reverse(ids);
+	//test_descending_sort_ids_with_reverse(ids);
 
+	test_descending_sort_ids_without_reverse(ids);
 }
 
 void test_ascending_sort_ids(std::vector<id_t>& ids) {
@@ -34,7 +35,7 @@ void test_descending_sort_ids_with_reverse(std::vector<id_t>& ids) {
 void test_descending_sort_ids_without_reverse(std::vector<id_t>& ids) {
 
 	std::cout << IDS_VECTOR_IN_DESCENDING_SORT_ORDER_WITHOUT_REVERSE
-		<< std::endl;
+			  << std::endl;
 	descending_sort_ids_vector_without_reverse(ids);
 	print_ids_vector(ids);
 }
@@ -42,8 +43,8 @@ void test_descending_sort_ids_without_reverse(std::vector<id_t>& ids) {
 void test_print_ids_vector(std::vector<id_t> ids) {
 
 	std::cout << std::endl
-		<< IDS_VECTOR_ELEMENTS
-		<< std::endl;
+			  << IDS_VECTOR_ELEMENTS
+			  << std::endl;
 	print_ids_vector(ids);
 }
 
