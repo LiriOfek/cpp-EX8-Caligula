@@ -12,6 +12,23 @@ Purpose: this header file contain declaration of functions that
 #include "fibonacci_series.h"
 
 const char* const SPACE_BETWEEN_ELEMENTS_IN_SERIES = " ";
+const char* const FIBONACCI_SERIES_IN_GIVEN_SIZE = "Fibonacci series in size ";
+const char* const COLONS = ":";
+
+void test_fibonacci(std::vector<int>& fib, int size_of_fibonacci_serius);
+/**
+* @brief  test functions that resize the vector to the given size, fill
+*			it with the fibonacci elements according to the size, and
+*			print the vector of fibonacci elements
+* @param  IN std::vector<int>& fib - the vector that will be in the given
+*			size with fibonacci elements
+*		  IN int size_of_fibonacci_serius - the given size of the fibonacci
+*		  series vector
+* @return this function has no return value
+* @notes  the fibonacci vector change such that it will be in the given size
+*			contain the elements of fibonacci series
+* @author  Liri
+*/
 
 void init_vector_with_elements_equals_to_indexes(std::vector<int>& fib);
 /**
