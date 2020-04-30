@@ -24,3 +24,13 @@ void test_remove_elements_equal_to_number(std::vector<int>& ints,
 								   number_that_elements_equal_to_it_will_remove);
 	print_ints_vector(ints);
 }
+
+void test_remove_elements_from_vector(std::vector<int>& ints,
+									  int number_that_elements_equal_to_it_will_remove) {
+	std::cout << ELEMENTS_IN_VECTOR
+		   	  << std::endl;
+	print_ints_vector(ints);
+
+	test_remove_elements_equal_to_number(ints,
+										 number_that_elements_equal_to_it_will_remove);
+}
