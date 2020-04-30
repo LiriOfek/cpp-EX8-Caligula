@@ -3,7 +3,7 @@ File Name: main.cpp
 Author: Liri (28/4/2020)
 Purpose: This file initiate vectors and call to the function that test the
 			function that remove elements from the vector that equal or bigger
-			than given number
+			than given number, sort vector of arrays in ascending order
 \********************************************************/
 
 #include "test_remove_elements.h"
