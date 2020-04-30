@@ -15,3 +15,7 @@ void descending_sort_ids_vector_with_reverse(std::vector<id_t> &ids) {
 	std::sort(ids.begin(), ids.end());
 	std::reverse(ids.begin(), ids.end());
 }
+
+void descending_sort_ids_vector_without_reverse(std::vector<id_t> &ids) {
+	std::sort(ids.begin(), ids.end(), std::greater<>());
+}
