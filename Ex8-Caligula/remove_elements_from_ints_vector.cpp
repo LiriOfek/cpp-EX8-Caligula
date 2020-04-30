@@ -14,6 +14,16 @@ void remove_elements_equal_to_value(std::vector<int>&ints, int value) {
 			   ints.end());
 }
 
+void remove_elements_bigger_than_value(std::vector<int> &ints, int value) {
+	ints.erase(std::remove_if(ints.begin(),
+							  ints.end(),
+							  std::bind(&is_bigger_than_value,
+										std::placeholders::_1,
+										value)),
+			   ints.end());
+}
+
+
 bool is_bigger_than_value(int element, int value) {
 	return (element > value);
 }

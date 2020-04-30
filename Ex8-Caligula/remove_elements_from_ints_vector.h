@@ -28,6 +28,20 @@ void remove_elements_equal_to_value(std::vector<int>&ints, int value);
 * @author  Liri
 */
 
+void remove_elements_bigger_than_value(std::vector<int> &ints, int value);
+/**
+* @brief  check if the element is bigger than the given value
+* @param  IN int element - the given element, to check if is bigger
+*			than value
+*		   IN int value - the given value, to check if the element is
+*			bigger than it
+*		   OUT bool true - if the elemnt bigger than value,
+*					false - otherwise
+* @return true - if the element bigger than the value,
+*		   false - otherwise
+* @author  Liri
+*/
+
 bool is_bigger_than_value(int element, int value);
 /**
 * @brief  remove all elements from ints vector that bigger than
