@@ -2,7 +2,8 @@
 File Name: sort_ids.cpp
 Author: Liri (28/4/2020)
 Purpose: This file contain functions that sort vector of arrays
-			in ascending order 
+			in ascending order, descending order with and without
+			reverse function
 \********************************************************/
 
 #include "sort_ids.h"

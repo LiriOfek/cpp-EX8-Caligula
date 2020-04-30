@@ -3,7 +3,7 @@ File Name: test_ids_sort.h
 Author: Liri (28/4/2020)
 Purpose: This header file contain declaration of functions that test the
 			functions that sort vector of arrays in ascending order and 
-			descending order using reverse  function
+			descending order with and without reverse function
 \********************************************************/
 
 #pragma once
@@ -19,7 +19,7 @@ const char* const IDS_VECTOR_IN_DESCENDING_SORT_ORDER_WITHOUT_REVERSE = "The ids
 void test_sort_vector_of_array(std::vector<id_t>& ids);
 /**
 * @brief  test the functions that sort the ids vector in ascending order
-*			and descending order using reverse functionS
+*			and descending order with and without reverse functions
 * @param  INOUT std::vector<id_t>& ids - the ids vector that will be sorted
 *			in ascending order and in the end will be sorted in descending order
 * @return this function has no return value

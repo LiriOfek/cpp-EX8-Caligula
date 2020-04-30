@@ -4,7 +4,7 @@ Author: Liri (28/4/2020)
 Purpose: This file initiate vectors and call to the function that test the
 			function that remove elements from the vector that equal or bigger
 			than given number, sort vector of arrays in ascending order 
-			and descending order using reverse function
+			and descending order with and without reverse function
 \********************************************************/
 
 #include "test_remove_elements.h"
@@ -14,7 +14,7 @@ int main() {
 	/**
 	* @brief  test functions that remove elements from vector that equal or
 	*			bigger than given number, sort vector of arrays in ascending
-	*			order and descending order using reverse function
+	*			order and descending order with and without reverse function
 	* @return this function has no return value
 	* @notes  the ints vector change such that all the elements than equal to 1 
 	*			or bigger than 5 are removed  from the vector, the vector of ids 
