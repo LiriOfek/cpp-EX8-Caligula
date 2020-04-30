@@ -2,7 +2,7 @@
 File Name: remove_elements_from_int_vector.cpp
 Author: Liri (28/4/2020)
 Purpose: This file contain functions that remove elements that
-			equal to given value using algorithm
+			equal or bigger than given value using algorithm
 \********************************************************/
 
 #include "remove_elements_from_ints_vector.h"

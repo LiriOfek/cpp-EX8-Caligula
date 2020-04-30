@@ -2,8 +2,8 @@
 File Name: main.cpp
 Author: Liri (28/4/2020)
 Purpose: This file initiate vectors and call to the function that test the
-			function that remove elements from the vector that equal to given 
-			number
+			function that remove elements from the vector that equal or bigger
+			than given number
 \********************************************************/
 
 #include "test_remove_elements.h"
@@ -11,16 +11,10 @@ Purpose: This file initiate vectors and call to the function that test the
 int main() {
 	/**
 	* @brief  test functions that remove elements from vector that equal or
-	*			bigger than given number, sort vector of arrays in ascending
-	*			and descending order, check if there is even element in vector
-	*			and calculate fibonacci serius in given size
-	* @param  IN std::vector<int>& fib - the vector that will be in the given
-	*			size with fibonacci elements
-	*		  IN int size_of_fibonacci_serius - the given size of the fibonacci
-	*		  series vector
+	*			bigger than given number
 	* @return this function has no return value
-	* @notes  the fibonacci vector change such that it will be in the given size
-	*			contain the elements of fibonacci series
+	* @notes  the ints vector change such that all the elements than equal to 1 
+	*			or bigger than 5 are removed  from the vector
 	* @author  Liri
 	*/
 	std::vector<int> ints({ 1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10 });
